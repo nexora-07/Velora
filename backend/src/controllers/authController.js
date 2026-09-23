@@ -65,7 +65,7 @@ const signUp = async (req, res, next) => {
 
       //create verificationUrl
 
-      const clientUrl = process.env.CLIENT_URL || "http://localhost:5173";
+      const clientUrl = process.env.FRONTEND_URL || "http://localhost:5173";
       const verificationUrl = `${clientUrl}/verify-email/${encodeURIComponent(
         user.email,
       )}/${verificationToken}`;
