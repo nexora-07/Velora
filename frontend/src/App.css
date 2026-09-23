@@ -1,0 +1,16 @@
+.appToast {
+	border-radius: 14px;
+	border: 1px solid #f0e0d2;
+	background: linear-gradient(120deg, #fff7ef 0%, #fff 100%);
+	color: #2f1f17;
+	box-shadow: 0 14px 30px rgba(102, 58, 31, 0.14);
+}
+
+.appToastBody {
+	font-size: 0.95rem;
+	font-weight: 600;
+}
+
+.appToastProgress {
+	background: linear-gradient(90deg, #ef6d2f 0%, #db3f35 100%);
+}
